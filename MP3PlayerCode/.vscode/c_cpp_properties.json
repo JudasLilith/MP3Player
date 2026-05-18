@@ -8,29 +8,35 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/comrade/Documents/PlatformIO/Projects/MP3PlayerCode/include",
-                "/home/comrade/Documents/PlatformIO/Projects/MP3PlayerCode/src",
+                "/home/comrade/Documents/GitHub/MP3Player/MP3PlayerCode/include",
+                "/home/comrade/Documents/GitHub/MP3Player/MP3PlayerCode/src",
+                "/home/comrade/Documents/GitHub/MP3Player/MP3PlayerCode/.pio/libdeps/nano_new_bootloader/Adafruit SSD1306",
+                "/home/comrade/Documents/GitHub/MP3Player/MP3PlayerCode/.pio/libdeps/nano_new_bootloader/Adafruit GFX Library",
+                "/home/comrade/Documents/GitHub/MP3Player/MP3PlayerCode/.pio/libdeps/nano_new_bootloader/Adafruit BusIO",
+                "/home/comrade/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/comrade/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 "/home/comrade/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "/home/comrade/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
                 "/home/comrade/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                 "/home/comrade/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                "/home/comrade/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                 "/home/comrade/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                "/home/comrade/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/comrade/Documents/PlatformIO/Projects/MP3PlayerCode/include",
-                    "/home/comrade/Documents/PlatformIO/Projects/MP3PlayerCode/src",
+                    "/home/comrade/Documents/GitHub/MP3Player/MP3PlayerCode/include",
+                    "/home/comrade/Documents/GitHub/MP3Player/MP3PlayerCode/src",
+                    "/home/comrade/Documents/GitHub/MP3Player/MP3PlayerCode/.pio/libdeps/nano_new_bootloader/Adafruit SSD1306",
+                    "/home/comrade/Documents/GitHub/MP3Player/MP3PlayerCode/.pio/libdeps/nano_new_bootloader/Adafruit GFX Library",
+                    "/home/comrade/Documents/GitHub/MP3Player/MP3PlayerCode/.pio/libdeps/nano_new_bootloader/Adafruit BusIO",
+                    "/home/comrade/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/comrade/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     "/home/comrade/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "/home/comrade/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
                     "/home/comrade/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                     "/home/comrade/.platformio/packages/framework-arduino-avr/libraries/HID/src",
-                    "/home/comrade/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                     "/home/comrade/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                    "/home/comrade/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     ""
                 ]
             },

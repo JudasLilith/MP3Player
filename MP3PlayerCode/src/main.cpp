@@ -3,7 +3,6 @@
 
 #include <SPI.h>
 #include <Wire.h>
-#include "ssd1306.h"
 #include <Adafruit_SSD1306.h>
 #include "FreeMonoBold9pt7b.h"
 #include "FreeMonoBold9pt7b.h"
@@ -49,6 +48,16 @@ display.setCursor(24, 27);
 display.print("MP3");
 
 display.display();
+
+pinMode(9, INPUT);
+pinMode(7, INPUT);
+pinMode(5, INPUT);
+pinMode(3, INPUT);
+
+digitalWrite(9, value);
+digitalWrite(7, value);
+digitalWrite(5, value);
+digitalWrite(3, value);
 
 
 
@@ -96,6 +105,11 @@ display.clearDisplay();
 void loop() {
   // put your main code here, to run repeatedly:
   Serial.println("please work god");
+  digitalRead(9);
+  digitalRead(7);
+  digitalRead(5);
+  digitalRead(3);
+  delay(300);
 }
 
 
