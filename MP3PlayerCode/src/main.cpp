@@ -15,6 +15,17 @@ static const unsigned char PROGMEM image_battery_17_bits[] = {0x00,0x00,0x00,0x0
 
 Adafruit_SSD1306 display = Adafruit_SSD1306(128, 64, &Wire);
 
+
+
+boolean LeftButton;
+
+boolean RightButton;
+
+boolean UpButton;
+
+boolean DownButton;
+
+
 void setup() {
   // put your setup code here, to run once:
   
@@ -54,61 +65,34 @@ pinMode(7, INPUT);
 pinMode(5, INPUT);
 pinMode(3, INPUT);
 
-digitalWrite(9, value);
-digitalWrite(7, value);
-digitalWrite(5, value);
-digitalWrite(3, value);
+digitalWrite(9, HIGH);
+digitalWrite(7, HIGH);
+digitalWrite(5, HIGH);
+digitalWrite(3, HIGH);
 
 
 
 
 
 
-/*
-///
-
-
-
-if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
-    Serial.println(F("SSD1306 allocation failed"));
-    for(;;); // Don't proceed, loop forever
-  }
-
-display.clearDisplay();
-
-
-  display.begin();
-
-    display.setTextColor(1);
-    display.setTextWrap(false);
-    display.setCursor(3, 14);
-    display.print("Now Playing:");
-
-    display.setFont(&FreeMonoBold9pt7b);
-    display.setCursor(2, 35);
-    display.print("SONG111");
-
-    display.setFont();
-    display.setCursor(2, 40);
-    display.print("Next Song:");
-
-    display.setFont(&FreeMonoBold9pt7b);
-    display.setCursor(3, 61);
-    display.print("SONG111");
-
-    display.drawBitmap(101, 3, image_battery_17_bits, 24, 16, 1);
-
-*/
-///
 }
+
+String str(boolean thing) {
+  if (thing)
+    return "true";
+  return "false";
+}
+
+
 
 void loop() {
   // put your main code here, to run repeatedly:
   Serial.println("please work god");
-  digitalRead(9);
-  digitalRead(7);
-  digitalRead(5);
-  digitalRead(3);
+  UpButton = digitalRead(9);
+  LeftButton = digitalRead(7);
+  DownButton = digitalRead(5);
+  RightButton = digitalRead(3);
+  Serial.println(str(UpButton)+" "+str(DownButton)+" " + str(LeftButton)+" " + str(RightButton));
   delay(300);
 }
 
@@ -132,8 +116,6 @@ void TitleScreen(int delaytime){
   delay(delaytime);
 
 }
-
-
 
 
 
