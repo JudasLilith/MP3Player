@@ -5,6 +5,200 @@
 	(uuid "d2cfcea4-afae-4a24-b917-c2501089e25e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "JLCImport:BH-18650-A1AJ005"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BH-18650-A1AJ005"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:BH-18650-A1AJ005"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211291730_MYOUNG-BH-18650-A1AJ005_C5290176.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-10~100℃ Battery holder Nickel plated - ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C5290176"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "MYOUNG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "BH-18650-A1AJ005"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BAT-TH_BH-18650-A1AJ005 BH-18650-A1AJ005 C5290176 MYOUNG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BH-18650-A1AJ005_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.286) (xy -1.27 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -0.508 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.286) (xy 0.254 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.27) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:DFR0299"
 			(pin_names
 				(offset 1.016)
@@ -785,6 +979,211 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Library:root_0_TP4056Module_Schlib1.SchLib"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M1"
+				(at 12.7 12.7 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "TP4056Module"
+				(at -15.24 12.7 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "TP4056Module"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TP4056 Module for managing battery charging"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*TP4056Module*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "root_0_TP4056Module_Schlib1.SchLib_1_0"
+				(rectangle
+					(start 12.7 -12.7)
+					(end -12.7 12.7)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "TP4056 Module"
+					(at -7.62 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at 7.62 20.32 270)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 20.32 270)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -20.32 90)
+					(length 7.62)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -20.32 90)
+					(length 7.62)
+					(name "B+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -20.32 90)
+					(length 7.62)
+					(name "B-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -20.32 90)
+					(length 7.62)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2101,17 +2500,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 104.14) (xy 194.31 104.14)
+			(xy 190.5 106.68) (xy 193.04 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01b86720-ff62-4341-b1dc-dc8ac478e514")
+		(uuid "082b772d-685d-4cc6-a06f-a8262a7ae7da")
 	)
 	(wire
 		(pts
-			(xy 91.44 57.15) (xy 91.44 147.32)
+			(xy 86.36 57.15) (xy 86.36 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2131,6 +2530,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 158.75) (xy 138.43 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10cddd03-9732-492c-b132-4d22f5d51745")
+	)
+	(wire
+		(pts
 			(xy 137.16 119.38) (xy 137.16 142.24)
 		)
 		(stroke
@@ -2138,6 +2547,16 @@
 			(type default)
 		)
 		(uuid "16c8215b-5643-4c98-b04c-cb30eea022cc")
+	)
+	(wire
+		(pts
+			(xy 203.2 121.92) (xy 203.2 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de9717d-843f-4984-b7a0-a7078ae79eac")
 	)
 	(wire
 		(pts
@@ -2181,6 +2600,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 173.99) (xy 139.7 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3251620f-f9ae-4d6c-ae6a-035e6e66d045")
+	)
+	(wire
+		(pts
 			(xy 154.94 88.9) (xy 154.94 90.17)
 		)
 		(stroke
@@ -2191,13 +2620,23 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 116.84) (xy 237.49 116.84)
+			(xy 198.12 156.21) (xy 203.2 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f2a9819-6267-4474-8141-e56f9297f55a")
+		(uuid "388a6a07-9771-41af-9528-0c869def55f4")
+	)
+	(wire
+		(pts
+			(xy 137.16 156.21) (xy 139.7 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8e1cbb-6d7e-46ff-af8d-220ce43cec02")
 	)
 	(wire
 		(pts
@@ -2211,16 +2650,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 111.76) (xy 222.25 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51f5d536-ee5a-43ec-82bf-60d1b6c38d66")
-	)
-	(wire
-		(pts
 			(xy 92.71 142.24) (xy 137.16 142.24)
 		)
 		(stroke
@@ -2228,6 +2657,16 @@
 			(type default)
 		)
 		(uuid "53f2493f-6d09-4b05-8e48-07058e14166c")
+	)
+	(wire
+		(pts
+			(xy 125.73 158.75) (xy 138.43 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5625ceed-a39b-4817-b665-6e19d137c77b")
 	)
 	(wire
 		(pts
@@ -2241,6 +2680,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 161.29) (xy 134.62 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6276e09b-67a8-41cb-9fb3-2518b8294f46")
+	)
+	(wire
+		(pts
+			(xy 190.5 116.84) (xy 193.04 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d038570-cb9e-49db-a15a-257622eccc56")
+	)
+	(wire
+		(pts
 			(xy 130.81 127) (xy 135.89 127)
 		)
 		(stroke
@@ -2248,6 +2707,26 @@
 			(type default)
 		)
 		(uuid "6d30d3f6-fb28-464e-9fe1-07793f8a30d3")
+	)
+	(wire
+		(pts
+			(xy 198.12 154.94) (xy 198.12 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e27f3a-133e-4a5b-8210-c517ccb5e283")
+	)
+	(wire
+		(pts
+			(xy 125.73 168.91) (xy 130.81 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b21cdd-f73f-4fbc-8b51-3a7951aa19ca")
 	)
 	(wire
 		(pts
@@ -2271,13 +2750,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 121.92) (xy 255.27 121.92)
+			(xy 139.7 149.86) (xy 139.7 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "785d8999-5ad1-48e4-95f4-878b263286fa")
+		(uuid "7ba4c911-bd0b-4013-ae7b-043a6c29617e")
 	)
 	(wire
 		(pts
@@ -2291,13 +2770,23 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 114.3) (xy 237.49 116.84)
+			(xy 130.81 168.91) (xy 130.81 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e389e72-b701-4d17-b96b-f81322ab60fa")
+		(uuid "86da2a1d-23bb-470e-921b-4cd782a2f779")
+	)
+	(wire
+		(pts
+			(xy 190.5 111.76) (xy 193.04 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af2ef86-e26a-45ae-ba20-238c4c5c3346")
 	)
 	(wire
 		(pts
@@ -2311,13 +2800,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 132.08) (xy 130.81 149.86)
+			(xy 130.81 171.45) (xy 134.62 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92bf971e-872b-4299-b00c-e33132dd1e56")
+		(uuid "8ca2208d-cb9f-4c23-bd82-979e447d79e0")
 	)
 	(wire
 		(pts
@@ -2361,7 +2850,27 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 147.32) (xy 139.7 147.32)
+			(xy 130.81 163.83) (xy 130.81 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afae1775-fcdc-4496-a179-b1bbcf46174a")
+	)
+	(wire
+		(pts
+			(xy 139.7 156.21) (xy 139.7 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b09fd84c-2a0b-4cfc-a745-2b16b0861482")
+	)
+	(wire
+		(pts
+			(xy 86.36 147.32) (xy 130.81 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2381,13 +2890,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 104.14) (xy 204.47 106.68)
+			(xy 190.5 121.92) (xy 193.04 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8a9d414-21da-40aa-8463-e89708119e70")
+		(uuid "b5e05e45-2f18-4bc9-869f-31f69f4bb5a4")
 	)
 	(wire
 		(pts
@@ -2421,26 +2930,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 109.22) (xy 212.09 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c10345c1-3c39-480a-86ca-490b453ef166")
-	)
-	(wire
-		(pts
-			(xy 130.81 149.86) (xy 139.7 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c24c50bc-4b9c-4bd1-80f4-8cda59b92813")
-	)
-	(wire
-		(pts
 			(xy 135.89 121.92) (xy 139.7 121.92)
 		)
 		(stroke
@@ -2451,13 +2940,33 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 106.68) (xy 190.5 106.68)
+			(xy 139.7 147.32) (xy 137.16 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d28065fd-7503-4664-aa08-3b6581030c03")
+		(uuid "cb2ef20a-24e3-4722-a66f-e14ee0c2eda4")
+	)
+	(wire
+		(pts
+			(xy 139.7 154.94) (xy 198.12 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0639a0a-c69e-4bd9-9118-a00a484bb5a4")
+	)
+	(wire
+		(pts
+			(xy 137.16 147.32) (xy 137.16 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f9b690-084d-4fb0-b39c-35c580414287")
 	)
 	(wire
 		(pts
@@ -2471,23 +2980,23 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 119.38) (xy 255.27 121.92)
+			(xy 138.43 139.7) (xy 139.7 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d84142f3-b4a3-497a-8617-540bb05511f6")
+		(uuid "e0f0f751-29a3-429a-8dc9-22a53428c964")
 	)
 	(wire
 		(pts
-			(xy 190.5 114.3) (xy 227.33 114.3)
+			(xy 125.73 163.83) (xy 130.81 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9b0da45-998f-44a8-9462-674d42b105d6")
+		(uuid "e35e7872-a75d-480d-9aeb-773c54feb680")
 	)
 	(wire
 		(pts
@@ -2501,7 +3010,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 57.15) (xy 91.44 57.15)
+			(xy 160.02 57.15) (xy 86.36 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2511,23 +3020,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 109.22) (xy 222.25 111.76)
+			(xy 130.81 132.08) (xy 130.81 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6741f82-c78d-4fd8-8e67-22c1344c27c4")
-	)
-	(wire
-		(pts
-			(xy 190.5 119.38) (xy 245.11 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f93b2280-f86c-438b-8a35-207ee8ebc17f")
+		(uuid "f552261a-39c6-42c5-8e57-2c1c5772ec8d")
 	)
 	(wire
 		(pts
@@ -2708,6 +3207,121 @@
 			(project "MP3Player"
 				(path "/d2cfcea4-afae-4a24-b917-c2501089e25e"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:BH-18650-A1AJ005")
+		(at 134.62 166.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2abdd4e9-7d46-4a6c-aa5b-79fc907356c5")
+		(property "Reference" "BT2"
+			(at 138.43 165.0364 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BH-18650-A1AJ005"
+			(at 138.43 167.5764 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:BH-18650-A1AJ005"
+			(at 134.62 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211291730_MYOUNG-BH-18650-A1AJ005_C5290176.pdf"
+			(at 134.62 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-10~100℃ Battery holder Nickel plated - ROHS"
+			(at 134.62 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5290176"
+			(at 134.62 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MYOUNG"
+			(at 134.62 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "BH-18650-A1AJ005"
+			(at 134.62 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3d8e6f59-1885-4898-985a-0c75e2ac5188")
+		)
+		(pin "1"
+			(uuid "fad0a089-36ec-4eb6-826d-441fa637ed17")
+		)
+		(instances
+			(project "MP3Player"
+				(path "/d2cfcea4-afae-4a24-b917-c2501089e25e"
+					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -3292,7 +3906,7 @@
 	)
 	(symbol
 		(lib_id "PCM_fab:Switch_Tactile_ESwitch")
-		(at 217.17 109.22 0)
+		(at 198.12 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3300,10 +3914,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86983f8e-437d-4e0d-b8b7-037af5122935")
-		(property "Reference" "SW2"
-			(at 217.17 101.6 0)
+		(property "Reference" "SWLeft1"
+			(at 217.678 108.712 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3313,7 +3926,7 @@
 			)
 		)
 		(property "Value" "Switch_Tactile_ESwitch"
-			(at 217.17 104.14 0)
+			(at 217.678 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3322,8 +3935,8 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
-			(at 217.17 109.22 0)
+		(property "Footprint" "PCM_SparkFun-Switch:Push_SMD_6.2x6.2mm"
+			(at 198.12 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3334,7 +3947,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/E-Switch%20PDFs/TL3315.pdf"
-			(at 217.17 109.22 0)
+			(at 198.12 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3345,7 +3958,7 @@
 			)
 		)
 		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 15V"
-			(at 217.17 109.22 0)
+			(at 198.12 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3370,7 +3983,7 @@
 		(instances
 			(project "MP3Player"
 				(path "/d2cfcea4-afae-4a24-b917-c2501089e25e"
-					(reference "SW2")
+					(reference "SWLeft1")
 					(unit 1)
 				)
 			)
@@ -3378,7 +3991,7 @@
 	)
 	(symbol
 		(lib_id "PCM_fab:Switch_Tactile_ESwitch")
-		(at 250.19 119.38 0)
+		(at 198.12 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3386,10 +3999,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "87cd093a-2df8-4a35-8785-41d6c61a003a")
-		(property "Reference" "SW4"
-			(at 250.19 111.76 0)
+		(property "Reference" "SWDown1"
+			(at 212.852 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3399,7 +4011,7 @@
 			)
 		)
 		(property "Value" "Switch_Tactile_ESwitch"
-			(at 250.19 114.3 0)
+			(at 218.186 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3408,8 +4020,8 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
-			(at 250.19 119.38 0)
+		(property "Footprint" "PCM_SparkFun-Switch:Push_SMD_6.2x6.2mm"
+			(at 198.12 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3420,7 +4032,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/E-Switch%20PDFs/TL3315.pdf"
-			(at 250.19 119.38 0)
+			(at 198.12 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3431,7 +4043,7 @@
 			)
 		)
 		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 15V"
-			(at 250.19 119.38 0)
+			(at 198.12 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3456,7 +4068,7 @@
 		(instances
 			(project "MP3Player"
 				(path "/d2cfcea4-afae-4a24-b917-c2501089e25e"
-					(reference "SW4")
+					(reference "SWDown1")
 					(unit 1)
 				)
 			)
@@ -3464,7 +4076,7 @@
 	)
 	(symbol
 		(lib_id "PCM_fab:Switch_Tactile_ESwitch")
-		(at 232.41 114.3 0)
+		(at 198.12 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3472,10 +4084,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "88da54b0-c081-4a8f-8722-b2a5a15743ed")
-		(property "Reference" "SW3"
-			(at 232.41 106.68 0)
+		(property "Reference" "SWRight1"
+			(at 216.662 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3485,7 +4096,7 @@
 			)
 		)
 		(property "Value" "Switch_Tactile_ESwitch"
-			(at 232.41 109.22 0)
+			(at 216.662 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3494,8 +4105,8 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
-			(at 232.41 114.3 0)
+		(property "Footprint" "PCM_SparkFun-Switch:Push_SMD_6.2x6.2mm"
+			(at 198.12 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3506,7 +4117,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/E-Switch%20PDFs/TL3315.pdf"
-			(at 232.41 114.3 0)
+			(at 198.12 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3517,7 +4128,7 @@
 			)
 		)
 		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 15V"
-			(at 232.41 114.3 0)
+			(at 198.12 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3542,7 +4153,101 @@
 		(instances
 			(project "MP3Player"
 				(path "/d2cfcea4-afae-4a24-b917-c2501089e25e"
-					(reference "SW3")
+					(reference "SWRight1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:root_0_TP4056Module_Schlib1.SchLib")
+		(at 105.41 166.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f697e7e-b0e0-48ee-9978-0ef9058a7129")
+		(property "Reference" "M1"
+			(at 104.1399 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP4056Module"
+			(at 106.6799 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TP4056Module"
+			(at 105.41 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TP4056 Module for managing battery charging"
+			(at 105.41 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8540a523-c2dd-4f95-834f-0d507277804d")
+		)
+		(pin "2"
+			(uuid "25fc7744-036e-41f8-8598-1dc2347c869c")
+		)
+		(pin "5"
+			(uuid "b54485b6-59d4-4c10-be71-4b17b1447383")
+		)
+		(pin "1"
+			(uuid "234f011e-dcaf-4776-83ab-4e9cc3ea99ed")
+		)
+		(pin "6"
+			(uuid "32381ff9-7663-40ed-ba13-291ad9a61f03")
+		)
+		(pin "4"
+			(uuid "1274b182-a404-447b-85e5-e0e7e026e6a0")
+		)
+		(instances
+			(project "MP3Player"
+				(path "/d2cfcea4-afae-4a24-b917-c2501089e25e"
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -3550,7 +4255,7 @@
 	)
 	(symbol
 		(lib_id "PCM_fab:Switch_Tactile_ESwitch")
-		(at 199.39 104.14 0)
+		(at 198.12 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3560,8 +4265,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f10578e6-8cdc-49bb-b081-31126fe32f1a")
-		(property "Reference" "SW1"
-			(at 199.39 96.52 0)
+		(property "Reference" "SWUp1"
+			(at 198.12 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3571,7 +4276,7 @@
 			)
 		)
 		(property "Value" "Switch_Tactile_ESwitch"
-			(at 199.39 99.06 0)
+			(at 198.12 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3580,8 +4285,8 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
-			(at 199.39 104.14 0)
+		(property "Footprint" "PCM_SparkFun-Switch:Push_SMD_6.2x6.2mm"
+			(at 198.12 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3592,7 +4297,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/E-Switch%20PDFs/TL3315.pdf"
-			(at 199.39 104.14 0)
+			(at 198.12 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3603,7 +4308,7 @@
 			)
 		)
 		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 15V"
-			(at 199.39 104.14 0)
+			(at 198.12 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3628,7 +4333,7 @@
 		(instances
 			(project "MP3Player"
 				(path "/d2cfcea4-afae-4a24-b917-c2501089e25e"
-					(reference "SW1")
+					(reference "SWUp1")
 					(unit 1)
 				)
 			)
