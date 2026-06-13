@@ -2,6 +2,10 @@
 
 __Yet another MP3 Player, based on the DFRobot player. made for Hack Club Fallout(woohoo!!)__
 
+
+![Magazine](ZineStuff/fallout_zine_MP3Player.png)
+
+
 ## Introduction
 
 Last year, the state of texas passed a law banning phones in all public schools. This came as a devastate effect for people who used their phones for academic purposes and people who listened to music in their free time. This situation made me find ways to listen to my playlist, and prompted me to make this project.
@@ -23,12 +27,14 @@ The MP3Player works by using the DFrobot DFPlayer, where all the songs are store
 | custom PCB board | [inside the step file](/link) | Will add the files in a minute |
 |SSD1036 | [amazon link for bulk](https://www.amazon.com/Hosyond-Display-Self-Luminous-Compatible-Raspberry/dp/B09T6SJBV5?dib=eyJ2IjoiMSJ9.6uJuI5cggaMKzcvI3mu-dvbLKlj0wOWwlcQl8xbyRfobJ3b6c3TsCgL8d5_2lj8bLpLwA4m1hgeH44EIKLIRiKn3pWcYvAocKu5288WeMdbQmOFhvJb4ijzHVK9Dped37QJYRIt5XDpLywYeOpeQUfzYAYDSUoPxFf_L-H85uGiz8-c98xMIucxSm6GAxhSut_ObX1kKdCcg77o59dNTfLinpqeD7YGn54MTBzKJl70.jMLZNSco5vdolf4Xf3qk7ZSXTGG4EDmd4ni-0WYy83k&dib_tag=se&keywords=SSD1306&qid=1779242639&sr=8-3) | Anything is fine, just make sure it's compatible with the Adafruit display library |
 |4 Buttons (depending on what kind of keys you want, alter the kicad pcb file) | N/A | I personally just use the common button keys on almost every arduino kits |
+|6 M2 nuts | [amazon link](https://www.amazon.com/Fgruh-M2-M3-M4-M5/dp/B0FGX9JGC5?crid=2NT24WAXE91QV&dib=eyJ2IjoiMSJ9.bTnvM_SQYLnYjyxSTAjjl1uodreFeuz-DqdsShjjYoTxPRmYdLp0gsPrWAr6kup0ESoJtdRbpmtmB9dMdnlQeEkzhxx_JS9wCRuVgj6k9fjj47v8lrjGXZ4dK8EqRT23Y3vk3vRO8XoYZ6VclKd2-avzBNO6XllpkOqiz-HR-MxHtlevnvKI35uXiU8fplah3sifPqZ165s9ZiDBFIUkXdSgNPQKdu1qo5lP5ZVZgW8.DFK3ayGbvIMHyTdY6YLHADBtloOBhNXhUbNScAJskyk&dib_tag=se&keywords=m2%2Bbolt%2Bsocket%2Bhead%2Bassortment&qid=1781308895&sprefix=m2%2Bbolt%2Bscket%2Bhead%2Bassortment%2Caps%2C143&sr=8-5&th=1) | Any M2 nuts and bolts will do, just make sure that the nuts are at least 4.5mm on each parallel side.
+| 3 M2-5mm Bolts | use above link | For the bottom plate of the casing |
+|| Column1 M2-15mm Bolts | use above link | For connecting the middle casing, along with the top casing. |
+|
 
-# Shit to do rn
+## Assembly 
 
-* [ ] Make the BOM actually readable
-* [ ] Actually cad out the part
-* [ ] program the thing
-* [ ] fill in the sd card
-* [ ] add the list of musics down as a list
-* [ ] making the zine page
+
+
+![Magazine](ZineStuff/assembly.png)
+
