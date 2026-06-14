@@ -2,13 +2,11 @@
 
 __Yet another MP3 Player, based on the DFRobot player. made for Hack Club Fallout(woohoo!!)__
 
-
 ![Magazine](ZineStuff/fallout_zine_MP3Player.png)
-
 
 ## Introduction
 
-Last year, the state of texas passed a law banning phones in all public schools. This came as a devastate effect for people who used their phones for academic purposes and people who listened to music in their free time. This situation made me find ways to listen to my playlist, and prompted me to make this project.
+Last year, the state of texas passed a law banning phones in all public schools. This came as a devastating effect for people who used their phones for academic purposes and people who listened to music in their free time. This situation made me find ways to listen to my playlist, and prompted me to make this project.
 
 This project is highly influenced from other similar projects, such as:
 
@@ -17,6 +15,13 @@ This project is highly influenced from other similar projects, such as:
 * <https://fallout.hackclub.com/projects/2789>
 
 The MP3Player works by using the DFrobot DFPlayer, where all the songs are stored inside a microSD card. Each of the files have a specific 4-digit number, and those are used to find or traverse through the music.
+
+## Gallery
+
+![schematic](ZineStuff/schematic.png)
+![pcb](ZineStuff/pcb.png)
+![frontpcb](ZineStuff/frontpcb.png)
+![backpcb](ZineStuff/backpcb.png)
 
 ### The BOM (Bill of Materials)
 
@@ -29,12 +34,15 @@ The MP3Player works by using the DFrobot DFPlayer, where all the songs are store
 |4 Buttons (depending on what kind of keys you want, alter the kicad pcb file) | N/A | I personally just use the common button keys on almost every arduino kits |
 |6 M2 nuts | [amazon link](https://www.amazon.com/Fgruh-M2-M3-M4-M5/dp/B0FGX9JGC5?crid=2NT24WAXE91QV&dib=eyJ2IjoiMSJ9.bTnvM_SQYLnYjyxSTAjjl1uodreFeuz-DqdsShjjYoTxPRmYdLp0gsPrWAr6kup0ESoJtdRbpmtmB9dMdnlQeEkzhxx_JS9wCRuVgj6k9fjj47v8lrjGXZ4dK8EqRT23Y3vk3vRO8XoYZ6VclKd2-avzBNO6XllpkOqiz-HR-MxHtlevnvKI35uXiU8fplah3sifPqZ165s9ZiDBFIUkXdSgNPQKdu1qo5lP5ZVZgW8.DFK3ayGbvIMHyTdY6YLHADBtloOBhNXhUbNScAJskyk&dib_tag=se&keywords=m2%2Bbolt%2Bsocket%2Bhead%2Bassortment&qid=1781308895&sprefix=m2%2Bbolt%2Bscket%2Bhead%2Bassortment%2Caps%2C143&sr=8-5&th=1) | Any M2 nuts and bolts will do, just make sure that the nuts are at least 4.5mm on each parallel side.
 | 3 M2-5mm Bolts | use above link | For the bottom plate of the casing |
-|| Column1 M2-15mm Bolts | use above link | For connecting the middle casing, along with the top casing. |
-|
+| 3 M2-15mm Bolts | use above link | For connecting the middle casing, along with the top casing. |
+| 1 18650 Cell   | [amazon link](https://www.amazon.com/Flat-Top-Universal-Flashlights-Headlamps/dp/B0FQB9BGTP?crid=1RIBPPK5YQ2XI&dib=eyJ2IjoiMSJ9.la5kUCHeIe5Hy9lp-aRFXf1biT_IP1jnohu_-zaT70c0UjlWM6PZzRdu6msWVry0Oje2jAw_JYBpu8xreDR2Mpf4bH8TR8p9vrkxXQaNZVcaHYTlueuKfAtJaiygecx0lI4VajVgjj3YgMi6hLi0eos32sLm04mkFIki4WSkoZhJA02npbFF9scdcbxaeMZ7Ru5O2Tp95RaYEZvwElCxKiYuUUnIPMQZ8hEXlhlNs18.HKAvgbk3hOwBcOJNn1SDUT5FWvKfBPtH43WR3UvdbLs&dib_tag=se&keywords=18650&qid=1781460401&sprefix=18650%2Caps%2C176&sr=8-4&th=1) | they normally sell in bulk, there probably are better ways for you to source these parts.|
 
-## Assembly 
+### Warning
 
+__Depending on the pack, make sure that you have a method to cut out the leeway remain of the bolts.__
 
+## Assembly
 
-![Magazine](ZineStuff/assembly.png)
-
+![Magazine](ZineStuff/AssemblyFirst.png)
+![Magazine](ZineStuff/AssemblyMiddle.png)
+![Assemblyimage](ZineStuff/AssemblyFinal.png)
