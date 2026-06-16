@@ -43,6 +43,34 @@ __Depending on the pack, make sure that you have a method to cut out the leeway 
 
 ## Assembly
 
+* First, make a gerber file with the KiCad files and solder each one in this order:
+
+* The DFPlayer-
+
+* The Battery Holder -
+
+* Arduino Nano-
+
+* The Screen-
+
+* The Buttons
+
+Be sure to print the casing, and have some way to tighten nuts and bolts.
+
+CAD file Link: <https://cad.onshape.com/documents/ecd8843b791ff5437d08f02d/w/4fa01a5ba4f86aa9473803eb/e/f34659960ea4cbceb5ca3625>
+
 ![Magazine](ZineStuff/AssemblyFirst.png)
 ![Magazine](ZineStuff/AssemblyMiddle.png)
 ![Assemblyimage](ZineStuff/AssemblyFinal.png)
+
+## Using the player
+
+* in flashing the code, do as you will with any microcontroller by connecting to the Arduino IDE, maintain a connection, and press flash.
+
+* Press the up button to toggle stop and play.
+
+* The Right Button passes through each music, and the Left button goes to the previous music
+
+* The Up + Right button to increase volume, the Down + Left button to decrease it.
+
+## Have fun making
