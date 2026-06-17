@@ -41,6 +41,13 @@ The MP3Player works by using the DFrobot DFPlayer, where all the songs are store
 
 __Depending on the pack, make sure that you have a method to cut out the leeway remain of the bolts.__
 
+### Custom music
+
+  You can add Custom music to your file, just inside the ./firmware/Music&Script/ for a python file, that would let you import the list yourself and then number them on your own.
+  Make sure that the files are in place for the python scripts, and then run the scripts. The script name is "updater.py"
+
+Further information about the [DFRobot Module can be found here.](https://wiki.dfrobot.com/dfr0299/)
+
 ## Assembly
 
 * First, make a gerber file with the KiCad files and solder each one in this order:
