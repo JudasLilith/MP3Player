@@ -1,6 +1,5 @@
 import os
 
-
 counter = 0;
 musiclist = [] 
 for music in os.listdir("./"): 
@@ -9,9 +8,11 @@ for music in os.listdir("./"):
 
 musiclist.sort()
 
-addedIndex = "0"
+addedIndex = ""
 for music in musiclist:
-    while ( len(addedIndex) < 4):
-        addedIndex = "0" + addedIndex + str(counter)
-    print( "\"" + addedIndex + music + "\",")
+    print( "const char PROGMEM [] " + music + " = " + "\"" + addedIndex + music + "\"" + ";")
     counter = counter + 1
+
+    #print(counter)
+
+    
